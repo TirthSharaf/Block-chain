@@ -1,0 +1,368 @@
+❯ echo starting process zero
+REM For grading we will use:
+REM for JSON
+REM For Mac / unix use :gson not ;gson
+REM javac -cp "gson-2.8.2.jar" Blockchain.java
+REM java -cp ".;gson-2.8.2.jar" Blockchain 0
+java BlockInputE 0
+pause
+
+ _____ _         __      __      __       _______      _______ _   __  __  
+ | __  | |___ ___| |_ ___| |_ ___|_|___   | __  |_ _   |_   _|_|___| |_| |_
+ | __ -| | . |  _| '_|  _|   | .'| |   |  | __ -| | |    | | | |  _|  _|   |
+ |_____|_|___|___|_,_|___|_|_|__,|_|_|_|  |_____|_  |    |_| |_|_| |_| |_|_|
+                                                |___|                       
+
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: After initial block verification completes, additional commands (C, V, L) are available in the console
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Nodes have initial delay of about 15 to 20 seconds to sync up with other nodes
+
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Input file: BlockInput0.txt
+
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Starting Updated BlockChain Server on port: 4930
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Starting Unverified Block Server on port: 4820
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Starting Main server on port: 4600
+Tue Feb 28 18:14:18 CST 2023 :: INFO :: Starting Public Keys Server on port: 4710
+
+Tue Feb 28 18:14:33 CST 2023 :: INFO :: Public key received for processId: 2
+Tue Feb 28 18:14:33 CST 2023 :: INFO :: Starting program
+Tue Feb 28 18:14:33 CST 2023 :: DEBUG :: New Public Key for Multicasting: MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxwC8yRl9AaFSfZ/ih+x3PKBcSr5yEmc7mcNmu2fC1SdFlG8svSnxLZJTmtCVB5qybpPrtnybZ2udQeqZjew5T+mDOirqxzlJh5RlmmootlIxTCqUtsgmBBHscx3mypzsz/lOUUUsGmLsrQpyK3qqHE0Fq9aoOAFB0krwzTH/KFQIDAQAB
+Tue Feb 28 18:14:33 CST 2023 :: INFO :: Public key received for processId: 0
+Tue Feb 28 18:14:33 CST 2023 :: INFO :: Public key received for processId: 1
+Tue Feb 28 18:14:34 CST 2023 :: INFO :: Size of the BlockChain Ledger is: 1
+Tue Feb 28 18:14:34 CST 2023 :: INFO :: Creating the first dummy block in the blockchain
+Tue Feb 28 18:14:34 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 1a1300ba-f364-47bc-a3d6-c6ead57b5caa
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 907ff23e-81dc-46c6-8c73-ba4057f560c4
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 0504ced1-05e4-4230-b335-a69c0c366951
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 70aca246-94fb-49b9-95b3-12a75279a903
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 65a6bfb3-40df-4e4c-8446-03fa5a45baf2
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 342cf2cf-745b-4af1-9008-6ab83783ebc9
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = cf7bbdc3-30e0-4a2f-9488-1d9decc3d171
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = b328a19a-415d-4a11-a049-e6caca23b8d1
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 0317c664-1758-4f53-86c4-58a70323fabc
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 8453cac9-1efc-4d2c-a393-5cc606e8aa65
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 59c6ae75-6cef-4acb-9586-446caa556420
+Tue Feb 28 18:14:38 CST 2023 :: INFO :: Adding the block to the queue, blockId = 827e5347-526e-4bca-9704-a3e0212d98ee
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Hash value of final BlockData: 19D04668BC670408F2F7D675EE6B1E1738A0B7016C440F22C0F51E7F62DAB520
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 19D0 and 6608
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: 6608 is less than 20,000. Solved!
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Winning Random Seed String: 48MWT5YH
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 2
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 1a1300ba-f364-47bc-a3d6-c6ead57b5caa
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 1a1300ba-f364-47bc-a3d6-c6ead57b5caa
+Tue Feb 28 18:14:40 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 1a1300ba-f364-47bc-a3d6-c6ead57b5caa
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Hash value of final BlockData: C40D7636D282217EE84BCF005697AE650787BC46BE3335E1584C0E98AC6F1302
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: C40D and 50189
+Tue Feb 28 18:14:40 CST 2023 :: WARN :: 50189 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Hash value of final BlockData: C0B10A9F717F95C75A29C629237040B7ADBD985FA75570C1ECC52E1C7D9C7AD3
+Tue Feb 28 18:14:40 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: C0B1 and 49329
+Tue Feb 28 18:14:40 CST 2023 :: WARN :: 49329 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:41 CST 2023 :: DEBUG :: Hash value of final BlockData: BCDE144FCFDBB6E26CC60DDFBBD57BFDAFACE6011426FFEEDFBBB385E7D67F11
+Tue Feb 28 18:14:41 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: BCDE and 48350
+Tue Feb 28 18:14:41 CST 2023 :: WARN :: 48350 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:42 CST 2023 :: DEBUG :: Hash value of final BlockData: F4C380986B28FA43693D45DAD9622001ECD5BC213A35952789D24F1191877C95
+Tue Feb 28 18:14:42 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: F4C3 and 62659
+Tue Feb 28 18:14:42 CST 2023 :: WARN :: 62659 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Hash value of final BlockData: 32E67C30F193CB2A9FD0E03DDE258162E7431B0545CDFB79DBFA68F0BBF86116
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 32E6 and 13030
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: 13030 is less than 20,000. Solved!
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Winning Random Seed String: TNPQJPIJ
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 3
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 65a6bfb3-40df-4e4c-8446-03fa5a45baf2
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 65a6bfb3-40df-4e4c-8446-03fa5a45baf2
+Tue Feb 28 18:14:43 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 65a6bfb3-40df-4e4c-8446-03fa5a45baf2
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Hash value of final BlockData: 3C2660CCA661C02602747AA9C5ED44BA1228D7400112AE227FCE285BEB54DBFE
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 3C26 and 15398
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Reading BlockData from the Work Loop
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Hash value of final BlockData: D2900D109824F9C96F01B3D8F9E33D231E34D52784F127FA3464B968932D77CC
+Tue Feb 28 18:14:43 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: D290 and 53904
+Tue Feb 28 18:14:43 CST 2023 :: WARN :: 53904 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:44 CST 2023 :: DEBUG :: Hash value of final BlockData: DD57E4A6A0B9F6852FC01596D143EC0551E6FB30A9540202743E7184B5E2AD28
+Tue Feb 28 18:14:44 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: DD57 and 56663
+Tue Feb 28 18:14:44 CST 2023 :: WARN :: 56663 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Hash value of final BlockData: 1792EA01F25C4BFA3F729FFF153E61CEA7ED77D08993FB5489513FC4265782A5
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 1792 and 6034
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: 6034 is less than 20,000. Solved!
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Winning Random Seed String: MH29PMBD
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 4
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0317c664-1758-4f53-86c4-58a70323fabc
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0317c664-1758-4f53-86c4-58a70323fabc
+Tue Feb 28 18:14:45 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0317c664-1758-4f53-86c4-58a70323fabc
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Hash value of final BlockData: 7251CA9AC2F7C07B49BFBDA15EF3E7D39D3B5E458F40D966BB6D6FF1D2024516
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 7251 and 29265
+Tue Feb 28 18:14:45 CST 2023 :: WARN :: 29265 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Hash value of final BlockData: 4F7391CE01306E44D8CFC277757D88649A6E29F066EA2FB0EE987AB9AC8B065B
+Tue Feb 28 18:14:45 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 4F73 and 20339
+Tue Feb 28 18:14:45 CST 2023 :: WARN :: 20339 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:46 CST 2023 :: DEBUG :: Hash value of final BlockData: F366A048A492EFE7CF6016C6E33FCA421E73485807C28BDFA691CC79E111B7EE
+Tue Feb 28 18:14:46 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: F366 and 62310
+Tue Feb 28 18:14:46 CST 2023 :: WARN :: 62310 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:47 CST 2023 :: DEBUG :: Hash value of final BlockData: 4FADF73E47BE5BA1BDC564AC34B6518C0F6954B3C7032FA67A1AFC50F5D02D83
+Tue Feb 28 18:14:47 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 4FAD and 20397
+Tue Feb 28 18:14:47 CST 2023 :: WARN :: 20397 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Hash value of final BlockData: 0BC98787EFA76DF702863CC3FD250833D3BAE98DFBA9E88A16781837C975E860
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 0BC9 and 3017
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: 3017 is less than 20,000. Solved!
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Winning Random Seed String: TK64M1CT
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 5
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 907ff23e-81dc-46c6-8c73-ba4057f560c4
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 907ff23e-81dc-46c6-8c73-ba4057f560c4
+Tue Feb 28 18:14:48 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 907ff23e-81dc-46c6-8c73-ba4057f560c4
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Hash value of final BlockData: 498E28D316B39B24F8708F16384647FA62A4C70C3D5A19DBE662F10BA95F238D
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 498E and 18830
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Reading BlockData from the Work Loop
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Hash value of final BlockData: 85EADAEA53744E3C509BB8A6E8BF49F2EC17E8ED943DF8D3BE46BD58ACE2D9C2
+Tue Feb 28 18:14:48 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 85EA and 34282
+Tue Feb 28 18:14:48 CST 2023 :: WARN :: 34282 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:49 CST 2023 :: DEBUG :: Hash value of final BlockData: 84554752E9E7781C308AC20BF6424990243CF3D71D3D5D5E60CE27E245C4DF9D
+Tue Feb 28 18:14:49 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 8455 and 33877
+Tue Feb 28 18:14:49 CST 2023 :: WARN :: 33877 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:50 CST 2023 :: DEBUG :: Hash value of final BlockData: AE6B75486F924C9F43C4AE2BE018E3C10F09DF89EFFC0361223E09F5EEC3535D
+Tue Feb 28 18:14:50 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: AE6B and 44651
+Tue Feb 28 18:14:50 CST 2023 :: WARN :: 44651 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:51 CST 2023 :: DEBUG :: Hash value of final BlockData: EA8C7EC798B90EC0FE0191A14A97C24ACADEDDFD5AE97D2EB742F909A84682AB
+Tue Feb 28 18:14:51 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: EA8C and 60044
+Tue Feb 28 18:14:51 CST 2023 :: WARN :: 60044 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:52 CST 2023 :: DEBUG :: Hash value of final BlockData: A71ACCF3E227EFE5C9AEB9BC63547F7477A0FA93169921B489BE8603785D8FD7
+Tue Feb 28 18:14:52 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: A71A and 42778
+Tue Feb 28 18:14:52 CST 2023 :: WARN :: 42778 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:53 CST 2023 :: DEBUG :: Hash value of final BlockData: 5177A6E64180AB904040B337516E4EDAC49685CFB14CFE9C976F0479B06FEE0E
+Tue Feb 28 18:14:53 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 5177 and 20855
+Tue Feb 28 18:14:53 CST 2023 :: WARN :: 20855 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:54 CST 2023 :: DEBUG :: Hash value of final BlockData: D5E392E02F1225B7C744C2F493069DFEBDDB64E518851E1CD21C9D62D7126E2B
+Tue Feb 28 18:14:54 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: D5E3 and 54755
+Tue Feb 28 18:14:54 CST 2023 :: WARN :: 54755 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:55 CST 2023 :: DEBUG :: Hash value of final BlockData: 88323659C089AB96DBFB9044CBDE926359CC63EC6214D2D85999AB5527CB89CC
+Tue Feb 28 18:14:55 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 8832 and 34866
+Tue Feb 28 18:14:55 CST 2023 :: WARN :: 34866 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash value of final BlockData: 2BEA2C58A7C20DAF6F9F8CE13EC61D36AC250CF0CEF4C2C139F4D8C46F6453E2
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 2BEA and 11242
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: 11242 is less than 20,000. Solved!
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Winning Random Seed String: CM78I9KF
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 6
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 342cf2cf-745b-4af1-9008-6ab83783ebc9
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 342cf2cf-745b-4af1-9008-6ab83783ebc9
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 342cf2cf-745b-4af1-9008-6ab83783ebc9
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash value of final BlockData: 54559C874EF9E2AA14CBB76C6E76EB34C7E641374BE9D4E13822ABC708D3751B
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 5455 and 21589
+Tue Feb 28 18:14:56 CST 2023 :: WARN :: 21589 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash value of final BlockData: 318BE72FD2859C2CB9FC09E698ECF78AEC1A2A4F051ADFDC3936534AA59430E8
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 318B and 12683
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: 12683 is less than 20,000. Solved!
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Winning Random Seed String: 6S0P7TO0
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 7
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 8453cac9-1efc-4d2c-a393-5cc606e8aa65
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 8453cac9-1efc-4d2c-a393-5cc606e8aa65
+Tue Feb 28 18:14:56 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 8453cac9-1efc-4d2c-a393-5cc606e8aa65
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash value of final BlockData: 1A60ED274AAC46DEFE0ADAD04C92F09AA52E3576FFD413785ABE6DA5081FEE63
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 1A60 and 6752
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Reading BlockData from the Work Loop
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Hash value of final BlockData: B22B7EE0E29925AEC9D1E77288637FB91B0B419297BB0F3E9E98C3D70F1C0CC1
+Tue Feb 28 18:14:56 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: B22B and 45611
+Tue Feb 28 18:14:56 CST 2023 :: WARN :: 45611 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:57 CST 2023 :: DEBUG :: Hash value of final BlockData: D5417FFD6F06123DD386E6E0E64CCD13515D3927F322D0CFC2D38D25D2FB3895
+Tue Feb 28 18:14:57 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: D541 and 54593
+Tue Feb 28 18:14:57 CST 2023 :: WARN :: 54593 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:58 CST 2023 :: DEBUG :: Hash value of final BlockData: 9AD00DA7ABCF669639B350E028F863CB4902BA602E7C5E65CE958202B28F4565
+Tue Feb 28 18:14:58 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 9AD0 and 39632
+Tue Feb 28 18:14:58 CST 2023 :: WARN :: 39632 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:14:59 CST 2023 :: DEBUG :: Hash value of final BlockData: 5DD0D69AAFF39718081E0928B57601C4522EB6C31787BCDB039E09F558455F3F
+Tue Feb 28 18:14:59 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 5DD0 and 24016
+Tue Feb 28 18:14:59 CST 2023 :: WARN :: 24016 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:00 CST 2023 :: DEBUG :: Hash value of final BlockData: 7FB1A0CE98BF27DD2A34C51B44AE5D6B1ECB50D1A0009DC30EAD1C000722DC40
+Tue Feb 28 18:15:00 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 7FB1 and 32689
+Tue Feb 28 18:15:00 CST 2023 :: WARN :: 32689 is not less than 20,000. Solving puzzle again
+
+=================================================
+Blockchain ledger created successfully
+=================================================
+For further actions, enter one of these commands:
+1. 'C' or 'c' to list credits of each process
+2. 'V' or 'v' to repeat blockchain verification
+3. 'L' or 'l' to list blocks of a blockchain
+=================================================
+
+please enter the command (v, c or l) : 
+
+please enter the command (v, c or l) : 
+Tue Feb 28 18:15:01 CST 2023 :: DEBUG :: Hash value of final BlockData: F41FDDF3173115D62DFD01269C4A910522E320FBB1B6941D00EB372416070BA3
+Tue Feb 28 18:15:01 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: F41F and 62495
+Tue Feb 28 18:15:01 CST 2023 :: WARN :: 62495 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:02 CST 2023 :: DEBUG :: Hash value of final BlockData: F2A1F6D7C2D3CC744653292CBE23094D4A763FC32F463E67F7B97B74655BB37F
+Tue Feb 28 18:15:02 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: F2A1 and 62113
+Tue Feb 28 18:15:02 CST 2023 :: WARN :: 62113 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:03 CST 2023 :: DEBUG :: Hash value of final BlockData: A93A58983B53A4D92BE70C5B88E59B5AD1C26F97803602A5DB7DF320D3314EED
+Tue Feb 28 18:15:03 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: A93A and 43322
+Tue Feb 28 18:15:03 CST 2023 :: WARN :: 43322 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Hash value of final BlockData: 4C3D47A566AB1C14648E3620CEB00DAE8F95AB941C562066D5EA37655E757142
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 4C3D and 19517
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: 19517 is less than 20,000. Solved!
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Winning Random Seed String: 35GYGOCM
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 8
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0504ced1-05e4-4230-b335-a69c0c366951
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0504ced1-05e4-4230-b335-a69c0c366951
+Tue Feb 28 18:15:04 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 0504ced1-05e4-4230-b335-a69c0c366951
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Hash value of final BlockData: C02A5CA334FF84AE43FEA59CDE797FF862536722C3C315B6C38C497F60B40A16
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: C02A and 49194
+Tue Feb 28 18:15:04 CST 2023 :: WARN :: 49194 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Hash value of final BlockData: 7278ADA1969B3935CF25053C1327D0DF03DA51C03D2B80BA6DABF14068135896
+Tue Feb 28 18:15:04 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 7278 and 29304
+Tue Feb 28 18:15:04 CST 2023 :: WARN :: 29304 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:05 CST 2023 :: DEBUG :: Hash value of final BlockData: DFC13DD500A1FAF96D60FA3FDE4EE9FC70F61FFC309D5C0F9480175688298485
+Tue Feb 28 18:15:05 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: DFC1 and 57281
+Tue Feb 28 18:15:05 CST 2023 :: WARN :: 57281 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Hash value of final BlockData: 2A0AB23F2568E2BE2F976DAFCB34BB8AB122F6D9C08F263365C163B457F33A34
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 2A0A and 10762
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: 10762 is less than 20,000. Solved!
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Winning Random Seed String: 8LA9JO5B
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 9
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Broadcasting the verified block with blockId: cf7bbdc3-30e0-4a2f-9488-1d9decc3d171
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Broadcasting the verified block with blockId: cf7bbdc3-30e0-4a2f-9488-1d9decc3d171
+Tue Feb 28 18:15:06 CST 2023 :: INFO :: Broadcasting the verified block with blockId: cf7bbdc3-30e0-4a2f-9488-1d9decc3d171
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Hash value of final BlockData: 7FEFF61EE081A95FEA2C41D0A6B62C24B5C2B6AB54D742128A6D00348E417525
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 7FEF and 32751
+Tue Feb 28 18:15:06 CST 2023 :: WARN :: 32751 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Hash value of final BlockData: D82EBDBDA092B4C22C71572144A7F740DAFC13BF54E9C9ADB09A7E815426D32A
+Tue Feb 28 18:15:06 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: D82E and 55342
+Tue Feb 28 18:15:06 CST 2023 :: WARN :: 55342 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Hash value of final BlockData: 45AFC3B999D9BCE1BFC3F4114AA3323ADC8109593878404D652DCF91E9D048A4
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 45AF and 17839
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: 17839 is less than 20,000. Solved!
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Winning Random Seed String: RB2T1G3E
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 10
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 59c6ae75-6cef-4acb-9586-446caa556420
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 59c6ae75-6cef-4acb-9586-446caa556420
+Tue Feb 28 18:15:07 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 59c6ae75-6cef-4acb-9586-446caa556420
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Hash value of final BlockData: 2247E91544E82DBEFA467964220C3BFF7B81ABE887EC76C70BE26F50BA69CA0F
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 2247 and 8775
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Reading BlockData from the Work Loop
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Hash value of final BlockData: EA414C5BCE10E69D234AD4DE9AD00C315D7C9717620255EFF7FBF52642C4271E
+Tue Feb 28 18:15:07 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: EA41 and 59969
+Tue Feb 28 18:15:07 CST 2023 :: WARN :: 59969 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:08 CST 2023 :: DEBUG :: Hash value of final BlockData: ACB522DE3D95EA93DC7AC782655752E2ABADE29FAF093D426E97F7FCBF5C1116
+Tue Feb 28 18:15:08 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: ACB5 and 44213
+Tue Feb 28 18:15:08 CST 2023 :: WARN :: 44213 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: 14466D5D9A7456C0B37D303B12BD42E81E6F8DF87CFC1BDABC8F3A8354313F58
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 1446 and 5190
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: 5190 is less than 20,000. Solved!
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Winning Random Seed String: 9DP98ET7
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 11
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 70aca246-94fb-49b9-95b3-12a75279a903
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 70aca246-94fb-49b9-95b3-12a75279a903
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 70aca246-94fb-49b9-95b3-12a75279a903
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: CAAD3BACE0A80C19C57C01890C69C438B791D29548234F38D3BB1864EEA1AA9C
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: CAAD and 51885
+Tue Feb 28 18:15:09 CST 2023 :: WARN :: 51885 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: 2F75676E777D7D508C853655C79E7873F6C1DCCD6E8768002C4915AA59EB251D
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 2F75 and 12149
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: 12149 is less than 20,000. Solved!
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Winning Random Seed String: V64G8S03
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 12
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: b328a19a-415d-4a11-a049-e6caca23b8d1
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: b328a19a-415d-4a11-a049-e6caca23b8d1
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: b328a19a-415d-4a11-a049-e6caca23b8d1
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: E704E4C761D864301EFFFB2BD8FA1B6AF14F1AE564A680B960B7D99B17123829
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: E704 and 59140
+Tue Feb 28 18:15:09 CST 2023 :: WARN :: 59140 is not less than 20,000. Solving puzzle again
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Block ID is Signed
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash is Signed
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: 4C759E393F02BCF6C96BEAB0A3FB8F5DA1FB37E2830EB74A4D2EED73D53CCA34
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 4C75 and 19573
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: 19573 is less than 20,000. Solved!
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Winning Random Seed String: UEH7CMQZ
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Block is added to blockchain ledger. Total Verified Blocks= 13
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 827e5347-526e-4bca-9704-a3e0212d98ee
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Persisting blockchain to disk
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 827e5347-526e-4bca-9704-a3e0212d98ee
+Tue Feb 28 18:15:09 CST 2023 :: INFO :: Broadcasting the verified block with blockId: 827e5347-526e-4bca-9704-a3e0212d98ee
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Hash value of final BlockData: 19DD99377D594C21908B254B8AB333F12410DDB757AB8AEA3513F136C7A6FD19
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Initial 16 bits in Hex and Decimal: 19DD and 6621
+Tue Feb 28 18:15:09 CST 2023 :: DEBUG :: Reading BlockData from the Work Loop
+
+
+please enter the command (v, c or l) : 
+c
+Credits received from verification processes:
+Credit for P0: 12
+Credit for P1: 0
+Credit for P2: 0
+please enter the command (v, c or l) : 
+v
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 13 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 13 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 12 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 12 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 11 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 11 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 10 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 10 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 9 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 9 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 8 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 8 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 7 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 7 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 6 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 6 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 5 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 5 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 4 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 4 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 3 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 3 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 2 Hash (SHA-256) signature verification success
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: #BlockId: 2 Signature verification was successful
+Tue Feb 28 18:15:20 CST 2023 :: INFO :: Blockchain is verified successfully
+
+please enter the command (v, c or l) : 
+l
+The following verified records are present in our BlockChain Ledger (most recent first):
+13. 1677579277492.0 Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil 
+12. 1677579277131.2 Joe DiMaggio 1914.11.25 111-22-3333 SoreKnees RestFromSports Aspirin 
+11. 1677579277043.1 Bruce Lee 1940.11.27 456-789-123 SoreStomach LessCombat Vicodine 
+10. 1677579276484.0 Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppers 
+9. 1677579276127.2 John Kennedy 1917.05.29 333-45-6999 AddisonsDisease DrugTherapy Steroids 
+8. 1677579276036.1 Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan 
+7. 1677579275479.0 Joe Blow 1996.03.07 123-45-6888 Smallpox BedRest Whiskey 
+6. 1677579275119.2 Abraham Lincoln 1809.02.12 444-45-6888 GreviousWound Surgery Whiskey 
+5. 1677579275028.1 Wei Xu 1996.03.22 123-456-333 Shingles WaitForRelief Zovirax 
+4. 1677579274461.0 John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirin 
+3. 1677579274096.2 Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths Aspirin 
+2. 1677579273998.1 Rita Vita 1992.01.31 999-456-789 ObessivePersonality TryToRelax Ibuprofen 
+1. 1677579274401.0 George Bushel 1890.10.10 111-00-1111 Cancer Chemotheraphy HealthyFood 
+
+please enter the command (v, c or l) : 
+
